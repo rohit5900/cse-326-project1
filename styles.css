@@ -1,0 +1,214 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("pexels-arnie-chou-1229042.jpg");
+    background-size: cover;
+}
+head{
+    color: #ffffffff;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffffff;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    color: #ffffffff;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    color: #ffffffff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background: transparent;
+    color: #ffffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #ffffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    align-self: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 212px;
+}
+
+.cta-button:hover {
+    background-color: #ff7043;
+}
+
+.courses {
+    color:#ffffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.course-card {
+    color:#ffffffff;
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.course-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.course-detail {
+    text-align: center;
+    color: #ffffffff;
+    padding: 50px 0;
+}
+
+.course-detail h2 {
+    color: #ffffffff;
+    font-size: 2em;
+}
+
+.course-detail img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.course-detail button {
+    background-color: #ff5722;
+    color: #ffffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.course-detail button:hover {
+    background-color: #ff7043;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffffff;
+    text-align: center;
+    padding: 10px 0;
+    align-self: b;
+    width: 100%;
+}
+
+section {
+    margin-bottom: 30px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+#About {
+    background: transparent;
+    color: #ffffffff;
+    text-align: center;
+    text-align: top;
+}
+
+#Contact {
+    background: transparent;
+    color: #ffffffff;
+    text-align: center;
+    text-align: top;
+}
+
+.collapsible-list {
+    color: #ffffffff;
+    list-style: none;
+    padding: 0;
+}
+
+.collapsible-header {
+    background-color: white;
+    backdrop-filter: blur(5px);
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.collapsible-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.collapsible-content p {
+    color: #ffffffff;
+}
+
+.collapsible-content a {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #ffffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.collapsible-content a:hover {
+    background-color: #ff7043;
+}
+
+.intro {
+    text-align: justify;
+    margin: 20px;
+}
+
+.grid {
+    display: grid;
+    background-color: #333;
+}
+
+.profile {
+    grid-area: right;
+}
+
+.notice {
+    grid-area: left;
+
+}
+
+#button {
+    margin-top: 10px;
+}
